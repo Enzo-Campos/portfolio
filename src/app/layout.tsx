@@ -3,6 +3,13 @@ import { Poppins } from 'next/font/google'
 import './globals.css'
 import { Header } from '@/components/header'
 import { SectionHero } from '@/components/SectionHero'
+// Importe o tipo ReactNode do React
+import { ReactNode } from 'react';
+
+// Indique o tipo para a propriedade children
+type RootLayoutProps = {
+  children: ReactNode;
+};
 
 const poppins = Poppins({ 
   subsets: ['latin'], 
@@ -14,7 +21,7 @@ export const metadata = {
   description: '',
 }
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="pt-br">
       <body className={poppins.className}>
