@@ -1,10 +1,11 @@
 import React from 'react'
 import { Poppins } from 'next/font/google'
 import './globals.css'
-import { Header } from '@/components/header'
-import { SectionHero } from '@/components/SectionHero'
+
+
 // Importe o tipo ReactNode do React
 import { ReactNode } from 'react';
+import Header from '@/components/header';
 
 // Indique o tipo para a propriedade children
 type RootLayoutProps = {
@@ -26,7 +27,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html lang="pt-br">
       <body className={poppins.className}>
         <Header />
-        <SectionHero />
           {children}
         </body>
     </html>
