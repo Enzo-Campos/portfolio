@@ -5,7 +5,8 @@ import './globals.css'
 
 // Importe o tipo ReactNode do React
 import { ReactNode } from 'react';
-import Header from '@/components/header';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 // Indique o tipo para a propriedade children
 type RootLayoutProps = {
@@ -28,6 +29,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body className={poppins.className}>
         <Header />
           {children}
+        <Footer />
         </body>
     </html>
   )

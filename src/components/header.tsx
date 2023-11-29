@@ -13,11 +13,11 @@ const Header = () => {
     return (
         <header className='w-full h-20 bg-primary-gray text-white items-center'>
             <div className='w-full max-w-[100vw] px-10 md:px-[6vw] lg:px-[10vw] xl:px-[15vw] flex justify-between align-middle items-center mx-auto border-b-[1.8px] border-opacity-gray min-h-[60px]' >
-                <a href="https://api.whatsapp.com/send?phone=5513996595151&text=Olá,%20Enzo%20gostei%20do%20seu%20portifólio." target='_blank'>
+                <a href="https://api.whatsapp.com/send?phone=5513996595151&text=Olá%20Enzo,%20gostei%20do%20seu%20portifólio!%20Quando%20podemos%20começar?" target='_blank'>
                     <h1 className='text-[1.1rem]'>Enzo Campos</h1>
                 </a>
                 <ul className='md:flex hidden justify-evenly w-[24rem]'>
-                    <a href="/"><li>Home</li></a>
+                    <a href="/#"><li>Home</li></a>
                     <a href="/#sobre"><li>Sobre mim</li></a>
                     <a href="/#portifolio"><li>Portifólio</li></a>
                 </ul>
