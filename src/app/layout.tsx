@@ -5,7 +5,7 @@ import './globals.css'
 
 // Importe o tipo ReactNode do React
 import { ReactNode } from 'react';
-import Header from '@/components/Header';
+import Header from '@/components/header';
 import Footer from '@/components/Footer';
 
 // Indique o tipo para a propriedade children
