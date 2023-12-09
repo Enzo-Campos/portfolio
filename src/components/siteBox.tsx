@@ -13,9 +13,9 @@ const SiteBox: React.FC<SiteBoxProps> = (props) => {
   const imageUrl = require(`@/assets/${props.imageAlias}.png`).default;
 
   return (
-    <div>
+    <>
       <a href={props.siteLink} target='_blank'>
-        <div className='bg-secundary-gray max-w-[90vw] mx-auto p-4 rounded-[20px] text-white h-[60%] flex flex-col justify-between my-[30px] cursor-pointer'>
+        <div className='bg-secundary-gray max-w-[90vw] mx-auto p-4 rounded-[20px] text-white h-[60%] flex flex-col justify-between my-[30px] cursor-pointer border-[1px] border-[#3b3b3b94] hover:bg-[#29292994] duration-300 xl:h-auto lg:h-auto'>
           <Image
             src={imageUrl}
             alt={`Imagem relacionada a ${props.title}`}
@@ -28,7 +28,7 @@ const SiteBox: React.FC<SiteBoxProps> = (props) => {
           <Image src={Wordpress} alt="logo-wordpress" className="w-[30px]" />
         </div>
       </a>
-    </div>
+    </>
   );
 };
 

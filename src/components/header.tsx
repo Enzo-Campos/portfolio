@@ -21,7 +21,7 @@ const Header = () => {
                     <a href="/#sobre"><li>Sobre mim</li></a>
                     <a href="/#portifolio"><li>Portifólio</li></a>
                 </ul>
-                <a className='hidden md:flex' href="/#contato"><span>Entrar em Contato</span></a>
+                <a className='hidden md:flex' href="https://api.whatsapp.com/send?phone=5513996595151&text=Olá%20Enzo,%20gostei%20do%20seu%20portifólio!%20Quando%20podemos%20começar?"><span>Entrar em Contato</span></a>
                 <button className="md:hidden" onClick={toggleClick}>
                     {clickMobile ? (
                         <svg className="h-6 w-6"
