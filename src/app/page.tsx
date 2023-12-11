@@ -15,7 +15,7 @@ export default function Home() {
       <div className='xl:grid xl:grid-cols-3 xl:max-w-[70vw] xl:m-auto xl:gap-x-[20px]
       lg:grid lg:grid-cols-2 lg:max-w-[80vw] lg:m-auto lg:gap-x-[20px]'>
         <SiteBox title="Site Institucional - FisioClinic Santos" subtitle="Criação de layout e desenvolvimento em wordpress." imageAlias='fisioclinic' siteLink='https://fisioclinicsantos.com.br' />
-        <SiteBox title="Site Institucional - Ao Pharmacêutico" subtitle="Desenvolvimento em wordpress." imageAlias='campinas' siteLink='https:/campinas-aopharmaceutico.com.br' />
+        <SiteBox title="Site Institucional - Ao Pharmacêutico" subtitle="Desenvolvimento em wordpress." imageAlias='campinas' siteLink='https://campinas-aopharmaceutico.com.br' />
         <SiteBox title="Site Institucional - Bem Barato Farma" subtitle="Desenvolvimento em wordpress." imageAlias='bembarato' siteLink='https://bembaratofarma.com.br' />
         <SiteBox title="Site Institucional - Coocerqui Drogaria" subtitle="Desenvolvimento em wordpress." imageAlias='coocerqui' siteLink='https://coocerquidrogaria.com.br' />
         <SiteBox title="Site em Construção*" subtitle="Desenvolvimento em progresso." imageAlias='gastro' siteLink='#' />
