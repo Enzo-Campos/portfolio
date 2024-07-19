@@ -14,12 +14,15 @@ export default function Home() {
       </div>
       <div className='xl:grid xl:grid-cols-3 xl:max-w-[70vw] xl:m-auto xl:gap-x-[20px]
       lg:grid lg:grid-cols-2 lg:max-w-[80vw] lg:m-auto lg:gap-x-[20px]'>
-        <SiteBox title="Site Institucional - FisioClinic Santos" subtitle="Criação de layout e desenvolvimento em wordpress." imageAlias='fisioclinic' siteLink='https://fisioclinicsantos.com.br' />
-        <SiteBox title="Site Institucional - Ao Pharmacêutico" subtitle="Desenvolvimento em wordpress." imageAlias='campinas' siteLink='https://campinas-aopharmaceutico.com.br' />
-        <SiteBox title="Site Institucional - Bem Barato Farma" subtitle="Desenvolvimento em wordpress." imageAlias='bembarato' siteLink='https://bembaratofarma.com.br' />
-        <SiteBox title="Site Institucional - Coocerqui Drogaria" subtitle="Desenvolvimento em wordpress." imageAlias='coocerqui' siteLink='https://coocerquidrogaria.com.br' />
-        <SiteBox title="Site em Construção*" subtitle="Desenvolvimento em progresso." imageAlias='gastro' siteLink='#' />
-        <SiteBox title="Site Institucional - MSG Contabilidade" subtitle="Desenvolvimento em wordpress." imageAlias='msgcont' siteLink='https://msgcont.com.br' />
+        <SiteBox title="Institucional - Smartway" subtitle="Soluções industriais." imageAlias='smartway' siteLink='https://smartwaycs.com.br' />
+        <SiteBox title="Institucional - Relive Clinic" subtitle="Clínica de estética." imageAlias='relive clinic' siteLink='https://reliveclinic.com.br' />
+        <SiteBox title="Institucional - TAED Arquitetura" subtitle="Escritório de Arquitetura" imageAlias='taed' siteLink='https://taedarquitetura.com.br' />
+        <SiteBox title="Institucional - FisioClinic Santos" subtitle="Clínica de fisioterapia." imageAlias='fisioclinic' siteLink='https://fisioclinicsantos.com.br' />
+        <SiteBox title="Institucional - Relive Club" subtitle="Clínica de estética." imageAlias='reliveclub' siteLink='https://reliveclub.com.br' />
+        <SiteBox title="Institucional - Ao Pharmacêutico" subtitle="Farmácias de manipulação." imageAlias='campinas' siteLink='https://campinas-aopharmaceutico.com.br' />
+        <SiteBox title="Institucional - Bem Barato Farma" subtitle="Rede de farmácias." imageAlias='bembarato' siteLink='https://bembaratofarma.com.br' />
+        <SiteBox title="Institucional - Dra. Lory Silveira" subtitle="Clínica de estética." imageAlias='lory' siteLink='https://lorysilveira.com.br' />
+        <SiteBox title="Institucional - Velis Contabil" subtitle="Escritório Contábil." imageAlias='velis' siteLink='https://veliscontabil.com.br' />
       </div>
       <AboutMe />
       <Tecnologias />
