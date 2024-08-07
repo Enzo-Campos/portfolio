@@ -15,6 +15,8 @@ module.exports = {
       'secundary-gray': '#242424',
       'opacity-gray': 'rgb(94, 94, 94, 0.18);',
       'primary-green': '#1FA51B',
+      'primary-brown': '#291D21',
+      'primary-bordo': '#461B29',
     }
     },
   },
