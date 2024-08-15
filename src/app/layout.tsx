@@ -20,7 +20,7 @@ const poppins = Poppins({
 
 export const metadata = {
   title: 'Enzo Campos - Desenvolvedor Web',
-  description: '',
+  description: 'Especialista em Sites - Potencialize o alcance e influência da sua empresa online com qualidade, agilidade e zero preocupações.',
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
